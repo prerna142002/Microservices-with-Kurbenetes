@@ -1,0 +1,7 @@
+Previous release was something which would take alot of effort.
+So, to reduce that effort we needed the break our application into smaller chuncks and this reduced our effort.
+So, now build time is not going from hours to seconds time and wrap around a container and deply the container.
+
+Speeding up the deployment cycle.
+So, when working with the project involving various people then in that case we have a block because of 1 small issue also - creates a choke point.
+We dont need to coordinate those peices then in that case we are going back to monolithic architecture.
