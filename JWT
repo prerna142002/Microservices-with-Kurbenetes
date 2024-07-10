@@ -1,0 +1,6 @@
+Compact, self-contained method for transferring secure data as a JSON object.
+
+Uses:
+1. Authentication
+2. Information Exchange
+
