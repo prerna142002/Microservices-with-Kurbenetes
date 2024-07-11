@@ -2,3 +2,12 @@ When it comes to managing applications then native OS are good at : Installing a
 
 Not at:
 1. Running mutiple version or instances
+
+Containers:
+To solve the problem of running software across different Operating environments.
+1. Independent packages - get independent self-contained packages that avoid version conflicts
+2. Namespace Isolation - There alot of types of isolations like network isolations
+
+
+Containers are similar to VMs but much lighter.
+
