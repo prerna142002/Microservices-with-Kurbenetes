@@ -11,3 +11,10 @@ To solve the problem of running software across different Operating environments
 
 Containers are similar to VMs but much lighter.
 
+Dockerfile
+Text documents that contain all of the necessary steps for buidlding an image from the command line.
+When used with the Docker build command, automates that process by executing these command line instructions to build the resulting image.
+Dockerfile are always named this way because when the the Docker build command kicks off the command that uses our Docker file to create an image, it also creates a context of all the files in
+our directory and its subdirectories.
+The build daemon will then search for a file called Dockerfile, although in practice its base to just start
+with an empty directory as context and keep your docker file there.
