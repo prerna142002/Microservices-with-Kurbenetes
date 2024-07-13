@@ -18,3 +18,7 @@ Dockerfile are always named this way because when the the Docker build command k
 our directory and its subdirectories.
 The build daemon will then search for a file called Dockerfile, although in practice its base to just start
 with an empty directory as context and keep your docker file there.
+
+The right thing to do is to push your container images to remote repository and leverage tools like Docker to fetch 
+those images from a central place when we need to run them.
+
