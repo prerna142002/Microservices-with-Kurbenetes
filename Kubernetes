@@ -1,0 +1,7 @@
+Role of containers in application development and deployment ---
+  Containers are quick to create and destroy and computing is trending towards even faster start/stop
+times.
+
+
+Kubernetes provides a new set of abstraction that go well beyond the bases of container 
+deployments and enable you to focus on the big picture.
