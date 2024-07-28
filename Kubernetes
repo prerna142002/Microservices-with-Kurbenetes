@@ -5,3 +5,17 @@ times.
 
 Kubernetes provides a new set of abstraction that go well beyond the bases of container 
 deployments and enable you to focus on the big picture.
+
+Pod: Represents logical application. - Contains 1/+ containers and volumes
+      And if 1/+ more containers have dependecnies on each other then they can be packaged in a single pod.
+      Containers in pod have shared namespaces and one IP per pod
+      They can be created by using pod configuration files.
+
+Monitoring and Health Checks:
+1. Sometimes pods might be running but the application in the pod is malfunctioning like deadlocked.
+2. There are readiness probes to indicate when the pod is ready to serve traffic.
+3. If aliveness probes fails mutiple times then the container will be restarted again
+
+Secrets and ConfigMaps
+1. Some applications need some certs like TLS certs to set secret configuration.
+2. Don't store secrets in Pods or Docker containers instead ConfigMaps take care.
