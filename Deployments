@@ -1,0 +1,3 @@
+Drive current state towards desired results.
+To ensure current no. of pods equal to desired no. of pods
+This is done using replica sets
