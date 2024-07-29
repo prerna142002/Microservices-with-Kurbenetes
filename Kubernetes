@@ -23,3 +23,5 @@ Secrets and ConfigMaps
 cert.pem and key.pem -> secure traffic on monolith server
 ca.pem -> HTTP client as a CA to trust.
 
+To check the logs we use - kubectl logs -c nginx secure-monolith
+But in prod we expose this as a service
