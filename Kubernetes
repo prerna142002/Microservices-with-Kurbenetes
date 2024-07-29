@@ -19,3 +19,7 @@ Monitoring and Health Checks:
 Secrets and ConfigMaps
 1. Some applications need some certs like TLS certs to set secret configuration.
 2. Don't store secrets in Pods or Docker containers instead ConfigMaps take care.
+
+cert.pem and key.pem -> secure traffic on monolith server
+ca.pem -> HTTP client as a CA to trust.
+
