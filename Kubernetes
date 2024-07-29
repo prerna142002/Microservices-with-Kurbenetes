@@ -35,3 +35,6 @@ Services:
   a. Cluster IP - internal IP
   b. Tight node - external IP that's externally accessible
   c. Load Balancing - Adds load balancer from the cloud provider which forced traffic from service to node within in.
+
+Monolith Config file Exploration:
+  selector - which automatically finds and expose any pods with the labels.
