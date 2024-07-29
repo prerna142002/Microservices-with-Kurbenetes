@@ -25,3 +25,13 @@ ca.pem -> HTTP client as a CA to trust.
 
 To check the logs we use - kubectl logs -c nginx secure-monolith
 But in prod we expose this as a service
+
+Services:
+- Pods can be restarted but what if its IP address fails then in that case we use Services
+- Persistent endpoints for pods
+- Use Labels to Select Pods
+- Internal or External IPs
+- 3 types of services:
+  a. Cluster IP - internal IP
+  b. Tight node - external IP that's externally accessible
+  c. Load Balancing - Adds load balancer from the cloud provider which forced traffic from service to node within in.
