@@ -38,3 +38,19 @@ Services:
 
 Monolith Config file Exploration:
   selector - which automatically finds and expose any pods with the labels.
+
+Read the yaml file and Replicas
+
+Scaling:
+Done by updating the replicas on the deployment manifest.
+- Deployments manage replica sets.
+- Each deployment is mapped to one active replica set.
+- We can update the yaml file and then 1 frontend service will map to different pods created in the backend.
+
+Rolling update:
+- To manage the versioning we can update the yaml file
+- Then apply changes to the file.
+- check the version with the describe commands.
+
+
+
